@@ -1,28 +1,43 @@
-# === Production configuration (active) ===
-application:
-  name: DevOpsSimulator
-  version: 1.0.0
-  environment: production
+# ==========================================
+# Application Configuration - DevOps Simulator
+# ==========================================
 
-server:
-  host: 0.0.0.0
-  port: 8080
-  ssl_enabled: true
+# === Production Configuration (Active) ===
+production:
+  application:
+    name: DevOpsSimulator
+    version: 1.0.0
+    environment: production
 
-logging:
-  level: INFO
-  format: json
+  server:
+    host: 0.0.0.0
+    port: 8080
+    ssl_enabled: true
 
-# Development configuration (enabled via environment variable)
+  logging:
+    level: INFO
+    format: json
+
+# === Development Configuration ===
 development:
-  enabled: false
-  port: 3000
-  hot_reload: false
-  debug_mode: false
-  mock_apis: false
+  enabled: true
+  application:
+    name: DevOpsSimulator
+    version: 2.0.0-beta
+    environment: development
 
-#experimental application configurations
+  server:
+    host: localhost
+    port: 3000
+    hot_reload: true
+    debug_mode: true
+    mock_apis: true
 
+  logging:
+    level: DEBUG
+    format: text
+
+# === Experimental Configuration (AI-Enhanced) ===
 experimental:
   version: 3.0.0-experimental
   environment: testing
