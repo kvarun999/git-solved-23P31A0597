@@ -1,13 +1,53 @@
-- e78d18f: docs: Added GIT JOURNEY (Venkat Varun, 82 seconds ago)
-- 31d51cc: docs: Update README (Venkat Varun, 31 minutes ago)
-- 3c4f4fa: docs: Update README (Venkat Varun, 36 minutes ago)
-- e6b6ae3: feat: Add new feature (Venkat Varun, 44 minutes ago)
-- abc0805: docs: Add FAQ section (Venkat Varun, 48 minutes ago)
-- 6fe5674: merge: Resolve all conflicts with conflict-simulator branch (Venkat Varun, 69 minutes ago)
-- 3cab6dc: chore: update main entry and scripts to use scripts/monitor.js instead of server.js (Venkat Varun, 2 hours ago)
-- d54d82f: merge: Resolve all conflicts between main and dev branches (Venkat Varun, 2 hours ago)
-- d3dd9b2: updating conflict-simulator (Hanu Gupta, 6 days ago)
-- 02011a5: updating dev (Hanu Gupta, 6 days ago)
-- 0312c6f: updating main (Hanu Gupta, 6 days ago)
-- fadfd24: Revise README for DevOps Simulator project (Hanu Gupta, 6 days ago)
-- ae630eb: Initial commit (Hanu Gupta, 6 days ago)
+# Changelog
+
+All notable changes to this project are documented here.  
+This changelog follows the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) style.
+
+---
+
+## [1.2.0] – 2025-10-29
+
+### 🚀 Added
+
+- **feat:** Add new feature (`e6b6ae3`, Venkat Varun)
+- **docs:** Add FAQ section (`abc0805`, Venkat Varun)
+
+### 🛠️ Fixed
+
+- **fix:** Restore and properly structure environment configurations in `app-config.yaml` (`fc35a94`, Venkat Varun)
+- **fix(monitor):** Remove undefined errors/references causing runtime crash (`acb7575`, Venkat Varun)
+
+### ✏️ Changed
+
+- **chore:** Enhance `test.txt` content for readability and purpose clarity (`42f555e`, Venkat Varun)
+- **chore:** Update main entry and scripts to use `scripts/monitor.js` instead of `server.js` (`3cab6dc`, Venkat Varun)
+
+### 🔀 Merged
+
+- **merge:** Resolve all conflicts between `main` and `dev` branches (`d54d82f`, Venkat Varun)
+- **merge:** Resolve all conflicts with `conflict-simulator` branch (`6fe5674`, Venkat Varun)
+
+### 📘 Documentation
+
+- **docs(images):** Add progress screenshots for Git Mastery report (`3f82ff0`, Venkat Varun)
+- **docs:** Add final project artifacts (`6e61633`, Venkat Varun)
+- **docs:** Added GIT JOURNEY (`e78d18f`, Venkat Varun)
+- **docs:** Update README (`31d51cc`, `3c4f4fa`, Venkat Varun)
+
+---
+
+## [1.1.0] – 2025-10-27
+
+### 🔄 Updated
+
+- **docs:** Revised README for DevOps Simulator project (`fadfd24`, Hanu Gupta)
+- **merge:** Updating `main`, `dev`, and `conflict-simulator` branches (`0312c6f`, `02011a5`, `d3dd9b2`, Hanu Gupta)
+
+---
+
+## [1.0.0] – 2025-10-23
+
+### 🧱 Initial Release
+
+- **Initial commit:** Base Git Mastery Challenge template setup (`ae630eb`, Hanu Gupta)
+- Included: `docker-compose.yml`, `.gitignore`, `README.md`, `CHANGELOG.md`, and core Git branch challenge files.
