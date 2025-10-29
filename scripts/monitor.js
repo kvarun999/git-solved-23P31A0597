@@ -105,4 +105,3 @@ function checkSystemHealth() {
 console.log(`\nMonitoring interval: ${config.interval}ms`);
 setInterval(checkSystemHealth, config.interval);
 checkSystemHealth();
-git;
